@@ -2,6 +2,9 @@
 title: abbivance.com
 timezone: UTC
 collections:
+  design:
+    title: Design
+    output: true
   photography:
     title: Photography
     output: true
