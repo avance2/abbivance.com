@@ -5,6 +5,9 @@ collections:
   design:
     title: Design
     output: true
+  events:
+    title: Events
+    output: true
   photography:
     title: Photography
     output: true
