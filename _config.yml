@@ -8,6 +8,9 @@ collections:
   photography:
     title: Photography
     output: true
+  portfolio:
+    title: Portfolio
+    output: true
   posts:
     title: Posts
     output: true
