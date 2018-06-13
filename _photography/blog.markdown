@@ -1,6 +1,6 @@
 ---
 title: Blog
 date: 2018-06-13 23:41:00 Z
-photo: "/uploads/edho-pratama-149011-unsplash.jpg"
+photo: "/uploads/25594188_951407495006839_8598485053771231506_n.jpg"
 ---
 
