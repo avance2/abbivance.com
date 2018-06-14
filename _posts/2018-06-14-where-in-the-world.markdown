@@ -1,6 +1,7 @@
 ---
 title: Where in the World
 date: 2018-06-14 02:26:00 Z
+photo: "/uploads/25594188_951407495006839_8598485053771231506_n.jpg"
 ---
 
 
