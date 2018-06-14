@@ -1,7 +1,9 @@
 ---
-title: Coffee Packaging
+title: Logo
 date: 2018-06-04 05:27:00 Z
-cover_photo: "/uploads/Smallcup_v4.jpg"
-product_photo: "/uploads/CoffeeBeansPouchMockup_v1.jpg"
+cover_photo:
+- "/uploads/harry-sandhu-209807-unsplash.jpg"
+- "/uploads/kyle-glenn-598701-unsplash.jpg"
+- "/uploads/priscilla-du-preez-363211-unsplash.jpg"
 ---
 
