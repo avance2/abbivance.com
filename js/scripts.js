@@ -1,6 +1,8 @@
 // Your Scripts
 console.log('Hey Browser!');
 
+// JS for Bulma Tabs A PEN BY Anatoliy
+
 function openTab(evt, tabName) {
     var i, x, tablinks;
     x = document.getElementsByClassName("content-tab");
@@ -14,3 +16,5 @@ function openTab(evt, tabName) {
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " is-active";
   }
+
+  

@@ -1,78 +1,12 @@
-<!-- RWD -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- iOS MetaTags -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="SketchGo">
+{% include head.html %}
 
-    <!-- Web App Manfiest -->
-    <meta name="theme-color" content="red">
-    <meta name="theme-color" content="red">
-    
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="theme-color" content="#ffffff">
-    
-    <!--  Bulma -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-    
-    <!--  This Site/App -->
-    <title>My App</title>
-    <link rel="stylesheet" href="css/styles.processed.css">
+{% include navbar.html %}
 
-<nav class="navbar">
-                    <div class="container">
-                        <div class="navbar-brand">
-                            <a class="navbar-item" href="../">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1490417/logo-placeholder.png" alt="Logo">
-                            </a>
-                            <span class="navbar-burger burger" data-target="navbarMenu">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </span>
-                        </div>
-                        <div id="navbarMenu" class="navbar-menu">
-                            <div class="navbar-end">
-                                <div class="tabs is-right">
-                                    <ul>
-                                        <li><a href="index.html">Homepage</a></li>
-                                        <li><a href="/aboutbio.html">About/Bio</a></li>
-                                        <li><a href="/portfolio.html">Portfolio</a></li>
-                                        <li><a href="/resume.html">Resume</a></li>
-                                    </ul>
-                                        </a>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-
-<section class="hero">
-  <div class="hero-body">
-    <div class="container">
-      <h1 class="title">
-        Portfolio
-      </h1>
-      <h2 class="subtitle">
-        Subtitle
-      </h2>
-    </div>
-  </div>
-</section>
-
-<section class="hero is-success">
+<section class="hero is-danger">
     <div class="hero-body">
-      <div class="container has-text-centered">
+      <div class="container has-text-left">
           <h1 class="title">
-            JS for Bulma Tabs 
+            Portfolio
           </h1>
         </div>
     </div> 
@@ -81,9 +15,10 @@
     <nav class="tabs is-boxed is-fullwidth is-large">
             <div class="container">
               <ul>
-                <li class="tab is-active" onclick="openTab(event,'WebDev')"><a >Web Development</a></li>
-                <li class="tab" onclick="openTab(event,'WebAud')"><a >Website Audit</a></li>
-                <li class="tab" onclick="openTab(event,'Support')"><a >Support</a></li>
+                <li class="tab is-active" onclick="openTab(event,'Photography')"><a >Photography</a></li>
+                <li class="tab" onclick="openTab(event,'PackagingDesign')"><a >Packaging Design</a></li>
+                <li class="tab" onclick="openTab(event,'Stationary')"><a >Stationary</a></li>
+                <li class="tab" onclick="openTab(event,'Logo')"><a >Logo</a></li>
               </ul>
             </div>
           </nav>
@@ -91,7 +26,7 @@
     </section>
     
     <div class="container section">
-        <div id="WebDev" class="content-tab" >
+        <div id="Photography" class="content-tab" >
             <section class="container">
                 <div class="tile is-ancestor">
                   <div class="tile">
@@ -127,16 +62,114 @@
                 </div>
                 </section>
         </div>
-        <div id="WebAud" class="content-tab" style="display:none">
-            <p>
-              test2<br>
-            Details Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <div id="PackagingDesign" class="content-tab" style="display:none">
+            <section class="container">
+                <div class="tile is-ancestor">
+                  <div class="tile">
+                  <div class="tile is-parent  is-vertical">
+                    <article class="tile is-child box">
+                      <img src="/uploads/john-matychuk-284377-unsplash.jpg" alt="">
+                    </article>
+                    <article class="tile is-child box">
+                      <img src="/uploads/priscilla-du-preez-363211-unsplash.jpg" alt="">
+                    </article>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child box">
+                          <img src="/uploads/sebastien-gabriel-61889-unsplash.jpg" alt="">
+                        </article>
+                      </div>
+                  </div>
+                </div>
+                  <div class="tile is-ancestor">
+                  <div class="tile is-parent">
+                      <article class="tile is-child box">
+                        <img src="/uploads/IMG_8198.jpg" alt="">
+                      </article>
+                    </div>
+                    <div class="tile is-parent is-vertical">
+                        <article class="tile is-child box">
+                          <img src="/uploads/IMG_8162.jpg" alt="">
+                        </article>
+                    <article class="tile is-child box">
+                      <img src="/uploads/IMG_8169.jpg" alt="">
+                    </article>
+                  </div>
+                </div>
+                </section>
         </div>
-        <div id="Support" class="content-tab" style="display:none">
-           <p>
-             test3 <br>  
-           Specification Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <div id="Stationary" class="content-tab" style="display:none">
+            <section class="container">
+                <div class="tile is-ancestor">
+                  <div class="tile">
+                  <div class="tile is-parent  is-vertical">
+                    <article class="tile is-child box">
+                      <img src="/uploads/john-matychuk-284377-unsplash.jpg" alt="">
+                    </article>
+                    <article class="tile is-child box">
+                      <img src="/uploads/priscilla-du-preez-363211-unsplash.jpg" alt="">
+                    </article>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child box">
+                          <img src="/uploads/sebastien-gabriel-61889-unsplash.jpg" alt="">
+                        </article>
+                      </div>
+                  </div>
+                </div>
+                  <div class="tile is-ancestor">
+                  <div class="tile is-parent">
+                      <article class="tile is-child box">
+                        <img src="/uploads/IMG_8198.jpg" alt="">
+                      </article>
+                    </div>
+                    <div class="tile is-parent is-vertical">
+                        <article class="tile is-child box">
+                          <img src="/uploads/IMG_8162.jpg" alt="">
+                        </article>
+                    <article class="tile is-child box">
+                      <img src="/uploads/IMG_8169.jpg" alt="">
+                    </article>
+                  </div>
+                </div>
+                </section>
         </div>
+        <div id="Logo" class="content-tab" style="display:none">
+            <section class="container">
+                <div class="tile is-ancestor">
+                  <div class="tile">
+                  <div class="tile is-parent  is-vertical">
+                    <article class="tile is-child box">
+                      <img src="/uploads/26239852_962609427219979_3956055765569955465_n.jpg" alt="">
+                    </article>
+                    <article class="tile is-child box">
+                      <img src="/uploads/26805293_962680483879540_3268968287785303463_n.jpg" alt="">
+                    </article>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child box">
+                          <img src="/uploads/26733623_962624877218434_7362754293000128578_n.jpg" alt="">
+                        </article>
+                      </div>
+                  </div>
+                </div>
+                  <div class="tile is-ancestor">
+                  <div class="tile is-parent">
+                      <article class="tile is-child box">
+                        <img src="/uploads/IMG_8198.jpg" alt="">
+                      </article>
+                    </div>
+                    <div class="tile is-parent is-vertical">
+                        <article class="tile is-child box">
+                          <img src="/uploads/IMG_8162.jpg" alt="">
+                        </article>
+                    <article class="tile is-child box">
+                      <img src="/uploads/IMG_8169.jpg" alt="">
+                    </article>
+                  </div>
+                </div>
+                </section>
+         </div>
     </div>
 
 <!-- <section>
