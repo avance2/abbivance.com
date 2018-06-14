@@ -1,5 +1,5 @@
 ---
-title: Vinyl Record
+title: Packaging
 date: 2018-06-04 05:27:00 Z
 cover_photo:
 - "/uploads/bernard-hermant-604385-unsplash.jpg"
